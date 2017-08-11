@@ -1,2 +1,2 @@
-# SimpleServiceServer
-Simple WCF Host Server
+# GPS.SimpleServiceServer
+Simple Service Server

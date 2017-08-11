@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{05BD0514-4D79-4B36-890D-0DC041DE9FBB}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS.SimpleServiceServer", "GPS.SimpleServiceServer\GPS.SimpleServiceServer.csproj", "{21CFDB83-160D-436C-87EF-44E2087EB248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS.SimpleServiceServerTests", "GPS.SimpleServiceServerTests\GPS.SimpleServiceServerTests.csproj", "{F7471A8D-1140-406A-B3C9-56F121383AF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F74212B1-A7AE-4E98-9270-8F06C7F1BCDD}"
+	ProjectSection(SolutionItems) = preProject
+		Deploy.ps1 = Deploy.ps1
+		..\README.md = ..\README.md
+		ReleaseNotes.txt = ReleaseNotes.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21CFDB83-160D-436C-87EF-44E2087EB248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21CFDB83-160D-436C-87EF-44E2087EB248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21CFDB83-160D-436C-87EF-44E2087EB248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21CFDB83-160D-436C-87EF-44E2087EB248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7471A8D-1140-406A-B3C9-56F121383AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7471A8D-1140-406A-B3C9-56F121383AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7471A8D-1140-406A-B3C9-56F121383AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7471A8D-1140-406A-B3C9-56F121383AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

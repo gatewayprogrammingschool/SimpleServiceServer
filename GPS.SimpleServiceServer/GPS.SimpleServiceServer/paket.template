@@ -1,0 +1,15 @@
+type project
+licenseUrl https://github.com/gatewayprogrammingschool/SimpleServiceServer/blob/master/LICENSE
+projectUrl http://simpleserviceserver.gatewayprogramming.school/
+iconUrl http://gatewayprogramming.school/gps.png
+owners Gateway Programming School, Inc.
+authors The Sharp Ninja
+copyright Copyright 2017 (c) Gateway Programming School, Inc.
+summary Simple Service Server that is extensible and allows for hosting of any service that implements the GPS.SimpleServiceServer.IService interface.  Comes with a WCF Service Container.
+tags wcf services server
+include-pdbs true
+dependencies
+  GPS.SimpleExtensions >= 1.0.0.1
+frameworkAssemblies
+  System.ServiceModel
+

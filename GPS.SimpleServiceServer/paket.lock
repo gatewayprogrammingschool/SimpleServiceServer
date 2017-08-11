@@ -1,0 +1,6 @@
+FRAMEWORK: >= NET452
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    GPS.SimpleExtensions (1.0.0.1)
+    Paket (5.85)
+    Paket.PowerShell (4.8.8)
